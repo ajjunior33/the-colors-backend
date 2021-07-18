@@ -1,5 +1,24 @@
 {
+  "name": "the-colors-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ajjunior33/the-colors-backend.git",
+  "author": "André Souza <ajjunior33@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts",
+    "tpyeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "typeorm": "^0.2.34",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
   }
 }
